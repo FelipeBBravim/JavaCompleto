@@ -32,9 +32,9 @@ public class Program {
 		double salary = sc.nextDouble();
 		
 		
-		System.out.println("Email of people whose salary is more than 2000.00:");
+		System.out.println("Email of people whose salary is more than " + salary + ": ");
 		List<String> emails = emp.stream()
-				.filter(e -> e.getSalary() > 2000.00)
+				.filter(e -> e.getSalary() > salary)
 				.map(e -> e.getEmail())
 				.sorted()
 				.collect(Collectors.toList());
