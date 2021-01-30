@@ -36,4 +36,6 @@
     <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
     <fullyQualifiedTypeName name="javafx.fxml.FXML"/>
     <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 </qualifiedTypeNameHistroy>
